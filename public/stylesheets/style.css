@@ -4,6 +4,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #FCD757;
 }
 main {
   flex: 1 0 auto;
@@ -12,7 +13,7 @@ main {
 .wrapper {
   width: 65%;
   margin: 0 auto;
-  padding: 3em;
+  padding: 7em;
 }
 
 nav {
@@ -46,4 +47,10 @@ nav ul a {
   font-family: 'Nunito', sans-serif;
   font-size: 2em;
   line-height: 1;
+}
+
+.landing-img {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1.5em;
 }
