@@ -1,9 +1,16 @@
 nav {
   background-color: #F8F8F8;
+  height: 5em;
+}
+nav ul a {
+  font-family: 'Helvetica', sans-serif;
+  color: #36393B;
+  height: 5em;
 }
 
 .logo {
   font-family: 'Helvetica', sans-serif;
-  font-size: 1.5em;
+  color: #36393B;
+  font-size: 36px;
   line-height: 1;
 }
