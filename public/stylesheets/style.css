@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.wrapper {
+  width: 65%;
+  margin: 0 auto;
+  padding: 3em;
+}
+
 nav {
   background-color: #F8F8F8;
   height: 5em;
+  margin-right: 1em;
 }
 nav ul a {
   font-family: 'Helvetica', sans-serif;
@@ -12,5 +30,20 @@ nav ul a {
   font-family: 'Helvetica', sans-serif;
   color: #36393B;
   font-size: 36px;
+  line-height: 1;
+}
+
+.page-footer {
+  background-color: #F8F8F8;
+}
+
+.container {
+  color: #36393B;
+}
+
+.flow-text {
+  color: #000000;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
   line-height: 1;
 }
